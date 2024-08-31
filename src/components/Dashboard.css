@@ -1,0 +1,67 @@
+.dashboard-container {
+  display: flex;
+  height: 100vh;
+}
+
+.content {
+  flex-grow: 1;
+  padding: 20px;
+  background-color: #f5f5f5;
+}
+
+h1 {
+  text-align: left;
+  margin-bottom: 20px;
+  color: #333;
+  
+}
+
+.charts {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+.chart-container {
+  background: #fff;
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+}
+
+.sales-chart {
+  flex: 3;
+}
+
+.pie-chart {
+  flex: 2;
+}
+
+@media (max-width: 768px) {
+  .charts {
+    flex-direction: column;
+  }
+}
+.back{
+  height: 25px;
+  width: 100%;
+  background-color: blueviolet;
+
+}
+.dashboard-header {
+  width: 20%;
+  height: 5%;
+  background-color:white;
+  display: flex;
+  align-items: center;
+  justify-content: left;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
+ 
+}
+
+.dashboard-header h1 {
+  margin: 0;
+  color:violet;
+  padding-left: 5px;
+}
